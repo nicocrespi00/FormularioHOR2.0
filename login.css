@@ -1,0 +1,34 @@
+body{
+    background-image: url(./img/fondo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.contein{
+    display: grid;
+    grid-template: 200px 300px 200px / repeat(3, 1fr);
+}
+
+.item{
+    padding: 10px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    background-image: url(./img/estrella\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.item h1{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'El Messiri', sans-serif;
+    align-self: center;
+    width: 120px;
+}
+
+.form{
+    grid-column: 1 / 4;
+}
