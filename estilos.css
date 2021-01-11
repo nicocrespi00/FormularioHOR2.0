@@ -65,7 +65,7 @@ body{
 }
 
 .log{
-    background-color: rgba(255, 255, 255, 0.11);
+    background-color: rgba(255, 255, 255, 0.61);
     border-radius: 0px 0px 0px 80px;
     display: flex;
     justify-content: center;
@@ -78,13 +78,19 @@ body{
     font-size: 2em;
     align-self: center;
     color: black;
-    padding: 50px 60px 50px 60px;
+    padding: 62px 63px 62px 63px;
     font-weight: 900;
+}
+
+.log a:hover{
+    transition: all .3s ease;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
 }
 
 
 .regis{
-    background-color: rgba(255, 255, 255, 0.11);
+    background-color: rgba(255, 255, 255, 0.61);
     border-radius: 0px 0px 80px 0px;
     display: flex;
     justify-content: center;
@@ -99,13 +105,19 @@ body{
     align-self: center;
     color: black;
     font-weight: 900;
-    padding: 50px 75px 50px 75px;
+    padding: 61px 78px 61px 79px;
+}
+
+.regis a:hover{
+    transition: all .3s ease;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
 }
 
 .titulo{
     grid-column: 2 / 4;
     grid-row: 1 / 2;
-    background-color: rgba(255, 255, 255, 0.11);
+    background-color: rgba(255, 255, 255, 0.61);
     border-radius: 80px 80px 0px 0px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
